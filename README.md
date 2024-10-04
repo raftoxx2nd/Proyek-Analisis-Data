@@ -1,15 +1,14 @@
 # Proyek-Analisis-Data
 
-## Setup Environment - Shell/Terminal
+## Setup Environment PowerShell
+Open PowerShell windows on \Proyek-Analisis-Data
 ```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
+python -m venv .venv
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+streamlit run .\dashboard\dashboard.py
 ```
