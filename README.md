@@ -1,7 +1,7 @@
 # Proyek-Analisis-Data
 
 ## Setup Environment PowerShell
-Open PowerShell windows on \Proyek-Analisis-Data
+Open PowerShell window in \Proyek-Analisis-Data
 ```
 python -m venv .venv
 .venv\Scripts\activate
